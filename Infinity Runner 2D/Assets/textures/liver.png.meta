@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d406ec662433d5a44b9ec33d54798b2d
+guid: e433514fcd597c7448bf8ac422693734
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7038837514321793385
-    second: lung_0
+      213: -5596849300284855115
+    second: liver_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lung_0
+      name: liver_0
       rect:
         serializedVersion: 2
-        x: 588
-        y: 24
-        width: 773
-        height: 1056
+        x: 198
+        y: 98
+        width: 1668
+        height: 982
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79ee727f296015e90800000000000000
-      internalID: -7038837514321793385
+      spriteID: 5bca02bf63ff352b0800000000000000
+      internalID: -5596849300284855115
       vertices: []
       indices: 
       edges: []
