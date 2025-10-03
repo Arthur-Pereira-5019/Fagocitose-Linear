@@ -180,7 +180,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      viruspopsilver_0: 540437942413602328
+      viruspopsilver_1: 2691939667232460848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

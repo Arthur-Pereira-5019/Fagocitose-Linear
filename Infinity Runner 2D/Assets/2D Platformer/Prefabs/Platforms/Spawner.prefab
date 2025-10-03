@@ -49,6 +49,5 @@ MonoBehaviour:
   - {fileID: 6317638360082858685, guid: e59fc148afdf40b43b664cb6f5a66c99, type: 3}
   - {fileID: 8463845385867953113, guid: 128ed8aa9070f504086b22224466ecba, type: 3}
   - {fileID: 6021168929983828194, guid: 9888b8cab5b41fd4bbf19e98769fcee4, type: 3}
-  - {fileID: 6262943243458379094, guid: f7b0011546360724dacd632292f99e46, type: 3}
-  spawnMin: 1
-  spawnMax: 2
+  spawnMin: 1.5
+  spawnMax: 3
