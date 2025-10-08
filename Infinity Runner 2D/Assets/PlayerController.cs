@@ -6,6 +6,7 @@ namespace Platformer
 {
     public class PlayerController : MonoBehaviour
     {
+        public float tempoIma;
         public float movingSpeed;
         public float jumpForce;
         private float moveInput;
@@ -36,7 +37,11 @@ namespace Platformer
 
         void Update()
         {
-           
+            if(tempoIma > 0) {
+                tempoIma -= Time.deltaTime;
+            }
+           movingSpeed += Time.deltaTime*0.001F;
+
             moveInput = 1;
             Vector3 direction = transform.right * moveInput;
             transform.position = Vector3.MoveTowards(transform.position, transform.position + direction, movingSpeed * Time.deltaTime);
