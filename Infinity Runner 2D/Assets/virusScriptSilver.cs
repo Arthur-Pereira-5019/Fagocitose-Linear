@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class virusScript : MonoBehaviour
+public class virusScriptSilver : MonoBehaviour
 {
     public Animator animator;
     public GameObject placar;
@@ -21,7 +21,7 @@ public class virusScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
             animator.SetBool("alive", false);
-            placar.GetComponent<Placar>().placar += 20;
+            placar.GetComponent<Placar>().placar += 50;
     }
 
 }
