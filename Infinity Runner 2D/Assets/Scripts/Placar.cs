@@ -7,8 +7,8 @@ public class Placar : MonoBehaviour
 {
     public TMP_Text mostrador;
     public TMP_Text mostradorRecorde;
-    private int placar;
-        private int recorde;
+    public int placar;
+    public int recorde;
     
     void Start()
     {
