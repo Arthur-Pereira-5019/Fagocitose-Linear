@@ -516,7 +516,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Branco_0: -89392163168363617
+      Branco_1: -6918850538827381981
+      Branco_10: -4240750734313361663
+      Branco_11: 6431029688300666292
+      Branco_12: -8202897665337610925
+      Branco_13: -8696267089506835361
+      Branco_14: -2776439038841780746
+      Branco_15: 5490412562047683957
+      Branco_2: 4786441927510740443
+      Branco_3: 939260035835085696
+      Branco_4: -6645767539898281248
+      Branco_5: -1338285920272228666
+      Branco_6: -540179277228816537
+      Branco_7: -9204611377789558233
+      Branco_8: 2570365402333798823
+      Branco_9: 5894901142356801637
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

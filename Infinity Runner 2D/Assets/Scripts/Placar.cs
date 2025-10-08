@@ -15,7 +15,7 @@ public class Placar : MonoBehaviour
         placar = 0;
         recorde = PlayerPrefs.GetInt("recorde", 0);
 
-        mostradorRecorde.text = "Recorde: " + recorde + "m";
+        mostradorRecorde.text = "Recorde: " + recorde;
 
         InvokeRepeating("pontua", 0.3f, 0.3f);
         
@@ -29,8 +29,8 @@ public class Placar : MonoBehaviour
             recorde = placar;
             PlayerPrefs.SetInt("recorde", 0);
         }
-        mostrador.text = "Distancia: " + placar + "m";
-        mostradorRecorde.text = "Recorde: " + recorde + "m";
+        mostrador.text = "Pontuação: " + placar;
+        mostradorRecorde.text = "Recorde: " + recorde;
 
     }
 }

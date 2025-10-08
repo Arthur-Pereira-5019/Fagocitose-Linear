@@ -45,9 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vetor:
-  - {fileID: 5029591872302687840, guid: 7f5cd615d1dc7b848bb93f8bd7f2f748, type: 3}
+  - {fileID: 6317638360082858685, guid: 35aed599523433947a9473f50fd950e0, type: 3}
   - {fileID: 6317638360082858685, guid: e59fc148afdf40b43b664cb6f5a66c99, type: 3}
-  - {fileID: 8463845385867953113, guid: 128ed8aa9070f504086b22224466ecba, type: 3}
-  - {fileID: 6021168929983828194, guid: 9888b8cab5b41fd4bbf19e98769fcee4, type: 3}
-  spawnMin: 1.5
-  spawnMax: 3
+  - {fileID: 6317638360082858685, guid: b5f3c8e77c8579148a418b69dc102189, type: 3}
+  - {fileID: 6317638360082858685, guid: d0cdb6c33a78bf4429c44d8b6ce1ab78, type: 3}
+  spawnMin: 3
+  spawnMax: 5

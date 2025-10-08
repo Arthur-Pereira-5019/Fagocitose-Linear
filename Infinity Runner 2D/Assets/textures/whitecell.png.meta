@@ -1,13 +1,31 @@
 fileFormatVersion: 2
-guid: 71bba08324377954e9a3568b344cae5d
+guid: 21a4afb6d99f8a54ebe26eaf1916a6e8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4791163201201804093
-    second: viruspopgold_0
+      213: 3334682744938436038
+    second: whitecell_0
   - first:
-      213: 7158060635510094516
-    second: viruspopgold_1
+      213: -2145323728833171608
+    second: whitecell_1
+  - first:
+      213: -8628482022201209599
+    second: whitecell_2
+  - first:
+      213: -6125637824842319107
+    second: whitecell_3
+  - first:
+      213: -4137029941884350017
+    second: whitecell_4
+  - first:
+      213: -4436394093942211644
+    second: whitecell_5
+  - first:
+      213: -5197063620642147844
+    second: whitecell_6
+  - first:
+      213: 6656987039428616703
+    second: whitecell_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 26
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,41 +117,15 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: viruspopgold_0
+      name: whitecell_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
+        y: 63
         width: 32
         height: 32
       alignment: 0
@@ -143,18 +135,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3cc6173047e528db0800000000000000
-      internalID: -4791163201201804093
+      spriteID: 6c51ea2e94c274e20800000000000000
+      internalID: 3334682744938436038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: viruspopgold_1
+      name: whitecell_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
+        x: 0
+        y: 31
         width: 32
         height: 32
       alignment: 0
@@ -164,60 +156,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ba3944193a865360800000000000000
-      internalID: 7158060635510094516
+      spriteID: 86faeae5f674a32e0800000000000000
+      internalID: -2145323728833171608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: viruspopgold_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffb974a1563f78b48be6e04613c5e7d2
-      internalID: 380250719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: viruspopgold_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbdb60bc9f0141c4c9e967b82c48886a
-      internalID: -1578007420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: viruspopgold_4
+      name: whitecell_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 63
         width: 32
         height: 32
       alignment: 0
@@ -225,20 +175,41 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c559519a89ff9d94ebf70cb00ab1fdee
-      internalID: -1765035790
+      spriteID: 10d4ad30159714880800000000000000
+      internalID: -8628482022201209599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: viruspopgold_5
+      name: whitecell_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfab3937adc5dfaa0800000000000000
+      internalID: -6125637824842319107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whitecell_4
       rect:
         serializedVersion: 2
         x: 64
-        y: 32
+        y: 63
         width: 32
         height: 32
       alignment: 0
@@ -246,31 +217,73 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fa8d85a9fd799684495b22fffc0586fa
-      internalID: -369204233
+      spriteID: fb114d0df215696c0800000000000000
+      internalID: -4137029941884350017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: viruspopgold_6
+      name: whitecell_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbfeea9313ce62c0800000000000000
+      internalID: -4436394093942211644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whitecell_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8c71044cbe7ba9f4da5589561f4aadcf
-      internalID: -1972430157
+      spriteID: cf1f4881c2250e7b0800000000000000
+      internalID: -5197063620642147844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whitecell_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1a58f217e526c50800000000000000
+      internalID: 6656987039428616703
       vertices: []
       indices: 
       edges: []
@@ -278,7 +291,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e30fb8216f7c7a2438c29a91e2b85e0f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -286,13 +299,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      viruspopgold_0: -4791163201201804093
-      viruspopgold_1: 7158060635510094516
-      viruspopgold_2: 380250719
-      viruspopgold_3: -1578007420
-      viruspopgold_4: -1765035790
-      viruspopgold_5: -369204233
-      viruspopgold_6: -1972430157
+      whitecell_0: 3334682744938436038
+      whitecell_1: -2145323728833171608
+      whitecell_2: -8628482022201209599
+      whitecell_3: -6125637824842319107
+      whitecell_4: -4137029941884350017
+      whitecell_5: -4436394093942211644
+      whitecell_6: -5197063620642147844
+      whitecell_7: 6656987039428616703
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
