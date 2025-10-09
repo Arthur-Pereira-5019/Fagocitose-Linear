@@ -39,6 +39,15 @@ namespace Platformer
         {
             if(tempoIma > 0) {
                 tempoIma -= Time.deltaTime;
+                float randomNumber = Random.Range(1F, 1000F);
+                if(randomNumber < 10F) {
+                    GameObject[] moedas = GameObject.FindGameObjectsWithTag("Moeda");
+
+        foreach (GameObject obj in moedas)
+        {
+            Mathf.Abs(obj.transform.position.x - transform.position.x)
+        }
+                }
             }
            movingSpeed += Time.deltaTime*0.001F;
 

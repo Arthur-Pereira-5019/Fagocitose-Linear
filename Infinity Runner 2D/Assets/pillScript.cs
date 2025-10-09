@@ -26,6 +26,7 @@ public class pillScript : MonoBehaviour
             placar.GetComponent<Placar>().placar += 35;
             if(other.gameObject.TryGetComponent<PlayerController>(out PlayerController pcs)) {
                 pcs.tempoIma += 10;
+                
             }
             Destroy(this.gameObject);
 
