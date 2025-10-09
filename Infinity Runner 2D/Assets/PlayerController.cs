@@ -23,10 +23,17 @@ namespace Platformer
         private Animator animator;
         private GameManager gameManager;
 
+        public Vector2 lightningHeight = new Vector2(0, 5f);
+
+        public GameObject lightning;
+
+        Placar placar;
+
         void Start()
         {
             rigidbody = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
+            placar = GameObject.Find("Placar").GetComponent<Placar>();
             // gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         }
 
@@ -37,15 +44,28 @@ namespace Platformer
 
         void Update()
         {
+            animator.SetFloat("magnetictime", tempoIma);
             if(tempoIma > 0) {
                 tempoIma -= Time.deltaTime;
                 float randomNumber = Random.Range(1F, 1000F);
                 if(randomNumber < 10F) {
                     GameObject[] moedas = GameObject.FindGameObjectsWithTag("Moeda");
-
+                    float x = transform.position.x;
         foreach (GameObject obj in moedas)
         {
-            Mathf.Abs(obj.transform.position.x - transform.position.x)
+                    Vector2 moedaTransform = obj.transform.position;
+            if(Mathf.Abs(moedaTransform.x - x) < 9) {
+                Instantiate(lightning,moedaTransform+=lightningHeight, Quaternion.identity);
+                obj.GetComponent<Animator>().SetBool("alive", false);
+                string name = obj.name;
+                if(name == "VirusDefault") {
+                    placar.placar +=20;
+                }else if(name == "VirusSilver") {
+                    placar.placar += 50;
+                }else {
+                    placar.placar += 125;
+                }
+            } 
         }
                 }
             }

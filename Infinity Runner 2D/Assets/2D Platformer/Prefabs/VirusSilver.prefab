@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 6952628394585513911}
   - component: {fileID: 6952628394585513800}
   - component: {fileID: 4766136186354295884}
+  - component: {fileID: 6261708075344284905}
   m_Layer: 0
   m_Name: VirusSilver
-  m_TagString: Untagged
+  m_TagString: Moeda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,6 +166,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6952628394585513906}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e091c4a8eca5ca0428e9bad340bcca17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  placar: {fileID: 0}
+  pontuacao: 0
+--- !u!114 &6261708075344284905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6952628394585513906}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e091c4a8eca5ca0428e9bad340bcca17, type: 3}
@@ -172,6 +188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   placar: {fileID: 0}
+  pontuacao: 50
 --- !u!1 &6952628394686255623
 GameObject:
   m_ObjectHideFlags: 0
