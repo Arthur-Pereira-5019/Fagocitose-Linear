@@ -98,7 +98,7 @@ namespace Platformer
                 doubleJump = true;
             }
 
-            if (Input.GetKeyDown(KeyCode.Space) &&
+            if (Input.GetKeyDown(KeyCode.Space) || ToqueDePulo() &&
                 (isGrounded || (!isGrounded && doubleJump)))
             {
                 if (!isGrounded)
@@ -120,6 +120,23 @@ namespace Platformer
                 Flip();
             }
         }
+
+        bool ToqueDePulo()
+{
+    if (Input.GetMouseButtonDown(0))
+        return true;
+
+    if (Input.touchCount > 0)
+    {
+        foreach (Touch touch in Input.touches)
+        {
+            if (touch.phase == TouchPhase.Began)
+                return true;
+        }
+    }
+
+    return false;
+}
 
         private void Flip()
         {
