@@ -662,7 +662,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7335194464122683024, guid: 65a62ad2b22cc84498bf2b404902e9cb, type: 3}
       propertyPath: m_Name
-      value: Placar (1)
+      value: Placar
       objectReference: {fileID: 0}
     - target: {fileID: 7778224697394364774, guid: 65a62ad2b22cc84498bf2b404902e9cb, type: 3}
       propertyPath: m_Pivot.x
