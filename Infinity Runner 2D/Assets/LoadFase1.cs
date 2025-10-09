@@ -5,10 +5,12 @@ using UnityEngine;
 
 
 public class LoadFase1 : MonoBehaviour
+
+
 {
-    // Start is called before the first frame update
+public string fase;
     public void loadFase() {
-                SceneManager.LoadScene("Fase1"); 
+                SceneManager.LoadScene(fase); 
 
     }
 }

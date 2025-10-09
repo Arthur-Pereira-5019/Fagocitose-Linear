@@ -7,8 +7,10 @@ namespace Platformer
     public class PlayerController : MonoBehaviour
     {
         public float tempoIma;
+        public float tempoBranco;
         public float movingSpeed;
         public float jumpForce;
+        public float deltaSpeed = 0.001F;
         private float moveInput;
         private bool doubleJump = true;
 
@@ -26,6 +28,7 @@ namespace Platformer
         public Vector2 lightningHeight = new Vector2(0, 5f);
 
         public GameObject lightning;
+        public SpriteRenderer tela_branca;
 
         Placar placar;
 
@@ -34,6 +37,7 @@ namespace Platformer
             rigidbody = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             placar = GameObject.Find("Placar").GetComponent<Placar>();
+            tela_branca = GameObject.Find("tela_branca").GetComponent<SpriteRenderer>();
             // gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         }
 
@@ -65,11 +69,25 @@ namespace Platformer
                 }else {
                     placar.placar += 125;
                 }
-            } 
+            }
+            
         }
                 }
             }
-           movingSpeed += Time.deltaTime*0.001F;
+            if(tempoBranco > 0) {
+                tempoBranco -= Time.deltaTime;
+                float randomNumber = Random.Range(1F, 1000F);
+                if(randomNumber < 20F && tela_branca.enabled == false) {
+                    tela_branca.enabled = true;
+                } else if(randomNumber < 50F) {
+                    tela_branca.enabled = false;
+                }
+                if(tempoBranco < 1) {
+                                        tela_branca.enabled = false;
+                                        tempoBranco = 0F;
+                }
+            } 
+           movingSpeed += Time.deltaTime*deltaSpeed;
 
             moveInput = 1;
             Vector3 direction = transform.right * moveInput;

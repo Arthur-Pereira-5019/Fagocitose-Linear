@@ -17,7 +17,7 @@ private void Start()
 
         if (outro.gameObject.tag == "Player")
         {
-            Time.timeScale = 1.0f;
+            Time.timeScale = 0f;
             GameOver.gameObject.SetActive(true);
             return;
         } else

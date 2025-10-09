@@ -4,12 +4,12 @@ using UnityEngine;
 
 using Platformer;
 
-public class pillScript : MonoBehaviour
+public class brancoScript : MonoBehaviour
 {
-    public GameObject placar;
+        public SpriteRenderer tela_branca;
     void Start()
     {
-                placar = GameObject.Find("Placar");
+                tela_branca = GameObject.Find("tela_branca").GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -20,10 +20,9 @@ public class pillScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-            placar.GetComponent<Placar>().placar += 35;
             if(other.gameObject.TryGetComponent<PlayerController>(out PlayerController pcs)) {
-                pcs.tempoIma += 15;
-                
+                pcs.tempoBranco += 9;
+                tela_branca.enabled = true;
             }
             Destroy(this.gameObject);
 

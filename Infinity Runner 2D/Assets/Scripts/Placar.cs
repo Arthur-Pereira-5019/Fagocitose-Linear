@@ -27,7 +27,7 @@ public class Placar : MonoBehaviour
         if(placar > recorde)
         {
             recorde = placar;
-            PlayerPrefs.SetInt("recorde", 0);
+            PlayerPrefs.SetInt("recorde", recorde);
         }
         mostrador.text = "Pontuação: " + placar;
         mostradorRecorde.text = "Recorde: " + recorde;

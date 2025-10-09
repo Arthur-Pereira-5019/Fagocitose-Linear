@@ -548,6 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4916c9f836795046a4827fe29b6d56e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fase: Fase2
 --- !u!1 &478892861
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,6 +969,7 @@ GameObject:
   - component: {fileID: 1314983631}
   - component: {fileID: 1314983630}
   - component: {fileID: 1314983629}
+  - component: {fileID: 1314983632}
   m_Layer: 5
   m_Name: Button1
   m_TagString: Untagged
@@ -1038,7 +1040,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1314983630}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1314983632}
+        m_TargetAssemblyTypeName: LoadFase1, Assembly-CSharp
+        m_MethodName: loadFase
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1314983630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1077,6 +1091,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314983627}
   m_CullTransparentMesh: 1
+--- !u!114 &1314983632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314983627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916c9f836795046a4827fe29b6d56e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fase: Fase1
 --- !u!1 &1464742881
 GameObject:
   m_ObjectHideFlags: 0
