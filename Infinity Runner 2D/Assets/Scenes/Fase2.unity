@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e1c988a02034217b3bb6125071e688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 28.7
+  offset: 26.4
 --- !u!212 &167053339
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -638,7 +638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e1c988a02034217b3bb6125071e688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 28.7
+  offset: 22.3
 --- !u!114 &574772840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1075,7 +1075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e1c988a02034217b3bb6125071e688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 28.7
+  offset: 26.4
 --- !u!114 &882593642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1268,6 +1268,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1996915960814488738, guid: a3dc7dd79a2fbc341a3fc828503f1ca9, type: 3}
+      propertyPath: tempoIma
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 1996915960814488738, guid: a3dc7dd79a2fbc341a3fc828503f1ca9, type: 3}
       propertyPath: lightning
       value: 
@@ -1659,7 +1663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e1c988a02034217b3bb6125071e688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 28.7
+  offset: 22.3
 --- !u!212 &1441408259
 SpriteRenderer:
   m_ObjectHideFlags: 0

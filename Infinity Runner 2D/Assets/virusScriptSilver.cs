@@ -20,6 +20,7 @@ public class virusScriptSilver : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if(other.gameObject.tag == "Player")
             animator.SetBool("alive", false);
             placar.GetComponent<Placar>().placar += 50;
     }
